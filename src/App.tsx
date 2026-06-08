@@ -255,7 +255,7 @@ const Logo = ({ className = "" }: { className?: string }) => (
 );
 
 export default function App() {
-  const [lang, setLang] = useState<Language>('RU');
+  const [lang, setLang] = useState<Language>('EN');
   const t = translations[lang];
 
   const waLink = "https://api.whatsapp.com/send?phone=971524710753";
