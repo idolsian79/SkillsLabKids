@@ -330,7 +330,7 @@ export default function App() {
                     <Sparkles className="text-white w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
                   <p className="text-skill-navy text-sm sm:text-lg font-bold leading-tight text-left">
-                    Ребенок создает проект уже на первом занятии!
+                    {t.hero.firstResult}
                   </p>
                 </div>
               </div>
