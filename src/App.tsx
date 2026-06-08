@@ -33,11 +33,11 @@ const translations = {
   EN: {
     nav: {
       name: "Skill Lab Kids",
-      location: "PHUKET / BANGTAO"
+      location: "ONLINE"
     },
     hero: {
       title: "Mind Development Through Robotics & Creativity",
-      subtitle: "Individual lessons for children aged 4–12 in Phuket / Bang Tao",
+      subtitle: "Individual online lessons for children aged 4-12",
       firstResult: "The child creates a project in the very first lesson!",
       cta: "book a lesson"
     },
@@ -68,19 +68,19 @@ const translations = {
       title: "Cost of Robotics classes:",
       trial: {
         title: "Trial lesson:",
-        price: "1.000 THB",
+        price: "100 AED",
         duration: "45 min",
         features: ["Introduction to child", "First mini-project (assembly + programming)"]
       },
       package: {
         title: "8-lesson package:",
-        price: "1.300 THB",
+        price: "130 AED",
         duration: "45 min",
         features: ["Individual lesson plan", "Program based on interests", "Progressive difficulty", "Priority booking"]
       },
       single: {
         title: "Single lesson:",
-        price: "1.500 THB",
+        price: "150 AED",
         duration: "45 min",
         features: ["Individual lesson", "Assembly and programming"]
       },
@@ -109,9 +109,9 @@ const translations = {
     formats: {
       title: "CLASS FORMATS",
       subtitle: "We select the format according to the child and their character.",
-      p1: "Individual lessons",
-      p2: "Mini-groups (up to 4 children)",
-      p3: "At home or in the studio",
+      p1: "Individual online lessons",
+      p2: "Online mini-groups (up to 4 children)",
+      p3: "Individual online lessons for children",
       note: "Maximum attention and results"
     },
     about: {
@@ -135,11 +135,11 @@ const translations = {
   RU: {
     nav: {
       name: "Skill Lab Kids",
-      location: "ПХУКЕТ / БАНГ ТАО"
+      location: "ОНЛАЙН"
     },
     hero: {
       title: "Развитие мышления через робототехнику и творчество",
-      subtitle: "Индивидуальные занятия для детей 4–12 лет на Пхукете / Банг Тао",
+      subtitle: "Индивидуальные онлайн занятия для детей 4-12 лет",
       firstResult: "Ребенок создает проект уже на первом занятии!",
       cta: "записаться на занятие"
     },
@@ -170,19 +170,19 @@ const translations = {
       title: "Стоимость занятий по робототехнике:",
       trial: {
         title: "Пробное занятие:",
-        price: "1.000 THB",
+        price: "100 AED",
         duration: "45 минут",
         features: ["знакомство с ребенком", "первый мини-проект (сборка + написание программы)"]
       },
       package: {
         title: "Пакет 8 занятий:",
-        price: "1.300 THB",
+        price: "130 AED",
         duration: "45 минут",
         features: ["индивидуальный план занятий", "программа под интересы ребенка", "постепенное усложнение проектов", "приоритетное бронирование времени"]
       },
       single: {
         title: "Разовое занятие:",
-        price: "1.500 THB",
+        price: "150 AED",
         duration: "45 минут",
         features: ["индивидуальное занятие", "сборка и программирование"]
       },
@@ -211,9 +211,9 @@ const translations = {
     formats: {
       title: "ФОРМАТ ЗАНЯТИЙ",
       subtitle: "Мы подбираем формат под ребёнка и его характер.",
-      p1: "индивидуальные занятия",
-      p2: "мини-группы (до 4 детей)",
-      p3: "занятия на дому или в студии",
+      p1: "индивидуальные онлайн занятия",
+      p2: "мини-группы онлайн (до 4 детей)",
+      p3: "Индивидуальные онлайн занятия для детей",
       note: "Максимум внимания и результата"
     },
     about: {
@@ -716,7 +716,7 @@ export default function App() {
       </section>
 
       {/* Footer / Conclusion */}
-      <footer id="contact" className="pt-20 sm:pt-32 pb-10 sm:pb-12 bg-white relative overflow-hidden">
+      <footer className="pt-20 sm:pt-32 pb-10 sm:pb-12 bg-white relative overflow-hidden">
         <div className="absolute bottom-0 right-0 w-64 h-64 sm:w-96 sm:h-96 bg-skill-pink/5 rounded-full blur-[100px] sm:blur-[150px]" />
         <div className="absolute top-0 left-0 w-32 h-32 sm:w-64 sm:h-64 dot-pattern opacity-10" />
         
@@ -745,7 +745,7 @@ export default function App() {
              </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 justify-center items-center mb-20 sm:mb-32">
+          <div id="contact" className="flex flex-col sm:flex-row gap-4 sm:gap-8 justify-center items-center mb-20 sm:mb-32 scroll-mt-24 sm:scroll-mt-32">
              <a 
                href={waLink}
                target="_blank"
