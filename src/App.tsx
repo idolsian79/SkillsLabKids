@@ -65,7 +65,7 @@ const translations = {
       ]
     },
     pricing: {
-      title: "Cost of Robotics classes:",
+      title: "Cost of online lessons:",
       trial: {
         title: "Trial lesson:",
         price: "100 AED",
@@ -167,7 +167,7 @@ const translations = {
       ]
     },
     pricing: {
-      title: "Стоимость занятий по робототехнике:",
+      title: "Стоимость онлайн-занятий:",
       trial: {
         title: "Пробное занятие:",
         price: "100 AED",
